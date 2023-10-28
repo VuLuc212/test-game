@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
 	<meta http-equiv="content-language" content="vi" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -11,49 +12,53 @@
 
 <body>
 	<script src="jquery.js"></script>
-		<br class="clear" />
-		<div id="onoidung">	
-				<a href="/" style="text-decoration: none;">
-					<div class="hoc-ai">MÔN TRÍ TUỆ AI</div>
-				</a>
-				
-				<div id="ndct">				
-					<div id="game" >
-						<div class="land L">
-							<div class="line_wolf p1"></div>
-							<div class="line_wolf p2"></div>
-							<div class="line_wolf p3"></div>
-							<div class="line_sheep p1"></div>
-							<div class="line_sheep p2"></div>
-							<div class="line_sheep p3"></div>
-						</div>
-						<div class="land R">
-							<div class="line_wolf p1"></div>
-							<div class="line_wolf p2"></div>
-							<div class="line_wolf p3"></div>
-							<div class="line_sheep p1"></div>
-							<div class="line_sheep p2"></div>
-							<div class="line_sheep p3"></div>
-						</div>
+	<br class="clear" />
+	<div id="onoidung">
+		<a href="/" style="text-decoration: none;">
+			<div class="hoc-ai">GAME ĐƯA CỪU QUA SÔNG IQ</div>
+		</a>
 
-						<div class="boat" style="left: 160px;">
-							<div class="boat_bg"></div>							
-							<div class="seat p1"></div>
-							<div class="seat p2"></div>
-						</div>
-
-						<button class="start"></button>						
-						<button class="go"></button>
-						<button class="reload"></button>
-						<div class="mask"></div>
-						<div class="failure"><img src="./img/lose.png" /></div>
-						<div class="success"><img src="./img/win.png" /></div>
-						<div class="result"></div>					
-					<div style="display:block;width:100%;height:20px;clear:both;"></div>					
+		<div id="ndct">
+			<div id="game">
+				<div class="land L">
+					<div class="line_wolf p1"></div>
+					<div class="line_wolf p2"></div>
+					<div class="line_wolf p3"></div>
+					<div class="line_sheep p1"></div>
+					<div class="line_sheep p2"></div>
+					<div class="line_sheep p3"></div>
 				</div>
-			</div>		
-		<br class="clear" />		
-	<script src="quasong.min.js"></script>
+				<div class="land R">
+					<div class="line_wolf p1"></div>
+					<div class="line_wolf p2"></div>
+					<div class="line_wolf p3"></div>
+					<div class="line_sheep p1"></div>
+					<div class="line_sheep p2"></div>
+					<div class="line_sheep p3"></div>
+				</div>
+
+				<div class="boat" style="left: 260px;">
+					<div class="boat_bg"></div>
+					<div class="seat p1"></div>
+					<div class="seat p2"></div>
+				</div>
+
+				<button class="start"></button>
+				<button class="go"></button>
+				<button class="reload"></button>
+				<div class="mask"></div>
+				<div class="failure"><img src="./img/lose.png" /></div>
+				<div class="success"><img src="./img/win.png" /></div>
+				<div class="time">Thời Gian：7.77S</div>
+				<div class="result"></div>
+				<div style="display:block;width:100%;height:20px;clear:both;"></div>
+			</div>
+			<audio id="smusic" src="audio/win.mp3" preload=""></audio>
+			<audio id="bgmusic" src="audio/hit.mp3" preload="" loop=""></audio>
+			<audio id="emusic" src="audio/lose.mp3" preload=""></audio>
+		</div>
+		<br class="clear" />
+		<script src="quasong.min.js"></script>
 </body>
 
 </html>
