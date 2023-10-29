@@ -247,11 +247,11 @@ button {
 }
 
 .go {
-    width: 50px;
-    height: 41px;
-    left: 190px;
+    width: 90px;
+    height: 81px;
+    left: 175px;
     top: 170px;
-    background: url(img/move.png) no-repeat;
+    background: url(img/go.png) no-repeat;
     background-size: 100%;
     display: none;
     z-index: 103;
